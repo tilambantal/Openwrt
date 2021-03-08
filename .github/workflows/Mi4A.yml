@@ -1,8 +1,9 @@
-name: Newifi_D2
+name: Mi4A
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-19.07
+  REPO_TAG: v19.07.7
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Mi4A.config
   DIY_P1_SH: diy-part1.sh
@@ -13,7 +14,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
-  FILE_NAME: Mi4A Gigabit OpenWRT SNAPSHOT
+  FILE_NAME: Mi4A Gigabit OpenWRT Stable
 
 on:
   repository_dispatch:
